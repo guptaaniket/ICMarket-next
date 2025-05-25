@@ -62,8 +62,9 @@ const DepositBonusForm = () => {
                 <div >
                     <span className='label-text'>Phone Number*</span>
                     <div>
-                        <div className="phone-wrapper">
+                        <div className="d-flex align-items-center">
                             <select
+                                style={{padding:'.62rem'}}
                                 className={submitted && !formData.phone ? 'code-selector error' : 'code-selector input-type'}
                             >
                                 <option value="+61">+61</option>
@@ -73,7 +74,6 @@ const DepositBonusForm = () => {
                             <input
                                 type="tel"
                                 name="phone"
-                                placeholder="Phone Number*"
                                 value={formData.phone}
                                 onChange={handleChange}
                                 className={submitted && !formData.phone ? 'error input-phone' : 'input-type input-phone'}
@@ -90,9 +90,8 @@ const DepositBonusForm = () => {
                             value={formData.country}
                             onChange={handleChange}
                             className={submitted && !formData.country ? 'error country-padding' : 'input-type country-padding'}
-                            placeholder="please select"
                         >
-                            <option value="">Please Select</option>
+                            <option value=""></option>
                             <option value="Australia">Australia</option>
                             <option value="USA">USA</option>
                             <option value="India">India</option>

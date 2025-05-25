@@ -125,7 +125,7 @@ export default function Home() {
           </div>
 
         </section>
-        <section className="why-trade-section faq-img" >
+        <section className="why-trade-section faqs-img" >
           <div className="why-trade-container pt-5">
 
             <h2 className="section-heading">Get a 10% Deposit Bonus – Limited Time Only*</h2>
