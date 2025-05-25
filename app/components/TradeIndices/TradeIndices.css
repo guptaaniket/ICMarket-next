@@ -1,0 +1,91 @@
+.why-trade-section {
+  background-color: var(--black); 
+  color: var(--white);
+  padding-bottom: 1rem;
+}
+.gradient-section {
+  color: var(--white);
+  padding-bottom: 1rem;
+}
+
+.why-trade-section-white {
+  background-color: var(--white); 
+  color: var(--black);
+  padding: 3rem 1rem;
+}
+
+.why-trade-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.why-trade-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+.why-trade-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.why-trade-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  color: var(--white);
+  border-radius: 10px;
+  border: 1px solid #313131;
+  padding: 2rem 1rem;
+  flex: 1 1 calc(33.333% - 1.5rem);
+  max-width: calc(33.333% - 1.5rem);
+  min-width: 260px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-trade-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 255, 0, 0.3);
+}
+
+.why-trade-icon {
+  font-size: 2rem;
+  color: #00ff00;
+  margin-bottom: 1rem;
+}
+
+.why-trade-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.why-trade-description {
+  font-size: 0.95rem;
+  font-weight: 400;
+  letter-spacing: 0%;
+  color: #ccc;
+}
+
+/* Responsive layout */
+@media (max-width: 992px) {
+  .why-trade-card {
+    flex: 1 1 calc(45% - 1.5rem);
+    max-width: calc(45% - 1.5rem);
+  }
+}
+
+@media (max-width: 900px) {
+  .why-trade-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  
+}

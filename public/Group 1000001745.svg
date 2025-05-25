@@ -1,0 +1,16 @@
+<svg width="89" height="40" viewBox="0 0 89 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<circle cx="19.9231" cy="19.9231" r="19.9231" fill="#777777"/>
+<rect x="7.11539" y="7.11523" width="24.1923" height="25.6154" fill="url(#pattern0_32_90)"/>
+<circle cx="68.3078" cy="19.9231" r="19.9231" fill="#777777"/>
+<rect x="55.5002" y="7.11523" width="25.6154" height="25.6154" fill="url(#pattern1_32_90)"/>
+<defs>
+<pattern id="pattern0_32_90" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_32_90" transform="scale(0.0588235 0.0555556)"/>
+</pattern>
+<pattern id="pattern1_32_90" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image1_32_90" transform="scale(0.0555556)"/>
+</pattern>
+<image id="image0_32_90" width="17" height="18" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAASCAYAAAC9+TVUAAAAAXNSR0IArs4c6QAAAe5JREFUOE+Vk02ITmEYhq9rMUkUFspmRJQkJsUsTBYWFqJpRuzGwiQ2spgwZcWCIhYWSn43WAiRny35mYVJJLIQpUhKiIVI3c47nZm+Gd9H3jqLc973vc5z38/9mGQNsBn4CSwAfgEn1LP8YyW5CZw1ySLgWX3+PjAfmAXMU1+34iR5AKwAFlsO1dXcUkffnwNz1CnNIEnO1NXPVD+OXKpBl4FutS1JWy3vpLq1EZRkD7AfWKo+KXtjkBqUEY3an6S7OngN6FKH6v2NwEWgV706Cp8I6QAKfZV6J0mpbn2RWUmYXUl4A+xSDzdWNw5S/+0IMNDgzzfgdgEDF9RtE336A1KDPgEv1K4kc4HSpWG1s5nRrSClxe+BLerpJAeAQWCSWnI0bjWFTDBxhvolybtK5ld14f9AivbjwCN1WZLpwGdgp1p8G1ut5OwAjlZJ3gBcAg6pg0n6gdPV066+bdriWsZa4AawST2XpBe4AnSoT5Pcq4M2tVVORudob9XifQ1pvg6sa2h7CeWxKvLbxyW2QfN5tW+ieUnKxatqb5KVwF2gUx1unJ3Susfq8hZDV74/rBLdo15LMgAcLLNW4twOvAR+qNOaARpkjaS5rqIEsgcYKpDVwG6gT/3wN0ht/KnK6CVV+L5X5r+qqpn8Gw232fPGYFiEAAAAAElFTkSuQmCC"/>
+<image id="image1_32_90" width="18" height="18" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAS9JREFUOE+1lL1KA1EQRs8HtgGbGLCytbG1jKDYqIiFr6C+glqr4BOYvIKFAWOnYNKlFcHWRiGxEdIKI7NMwrLJGtbVW+yyc+89O9/8iVhmtgQcA9vA4sie834H2sCFpFc/I3+Y2TpwA1SAAfAyA7QMLABDYE/Sg8KTp4AcSmrOgCTbZnYANAK24iD/cGMRiMt/BjYD1nTQGzAnqZb1JCSvhr3nEsKbS6ArqW1mfeDLQQZ0JK2lAl8FroF6Bt4B9iV9pM4++rk8ULIJ3AFXcekI2Jry0xawOwEKOfcOkeSxGC8z85Q7bCMlMxd0ApwBOx6DDMjBt8CppPOI1/+DvDjLSwt3ywc7QL9Kf+GCzCRgXJCFWyRVjKN+S1rEx0f5pv1hjHzmTIF5YHKM/NVg+wYI8vIdjarvJQAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>

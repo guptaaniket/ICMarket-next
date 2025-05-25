@@ -1,0 +1,149 @@
+.footer {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 2rem;
+}
+
+.footer__top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.footer__logo-section {
+    flex: 1 1 250px;
+    justify-items: flex-start;
+    text-align: left;
+}
+
+.footer__logo {
+    width: 180px;
+    height: 21px;
+    margin-bottom: 1rem;
+    align-items: flex-start;
+}
+
+.footer__description {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19.2px;
+    margin-bottom: 1rem;
+    color: #777777;
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-self: flex-start;
+}
+
+.footer__icon {
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.footer__icon.tradingview {
+    background-color: var(--white);
+    color: var(--black);
+    font-weight: bold;
+}
+
+.footer-title {
+    text-align: left;
+}
+
+.footer__links {
+    display: flex;
+    flex: 2 1 600px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.footer__links h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25.71px;
+    color: var(--white);
+}
+
+.footer__links ul {
+    list-style: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    color: #777777;
+    text-align: left;
+    /* padding: 0;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 0; */
+}
+
+.footer__bottom {
+    border-top: #777777 solid 1px;
+    border-bottom: #777777 solid 1px;
+    max-width: 1140px;
+    margin: 2rem auto 0;
+    padding: 2rem 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+    text-align: left;
+}
+.footer__bottom strong{
+    color: var(--white) !important;
+
+}
+.footer__bottom p {
+
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    line-height: 1.6;
+    color: #777777;
+
+    text-align: left;
+}
+
+.footer-rights {
+    max-width: 1140px;
+    text-align: left;
+}
+
+.footer-rights p {
+    color: var(--white)FFF;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.link-highlight {
+    color: #00ff00;
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    .footer__top {
+        flex-direction: column;
+    }
+
+    .footer__links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer__logo {
+        width: 150px;
+    }
+
+    .footer__links h4 {
+
+        margin-left: 0rem;
+    }
+    
+}
